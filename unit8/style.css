@@ -1,0 +1,30 @@
+body
+{
+	font-size: 30px;
+	font-family: "lucida sans unicode", "lucida grande", sans-serif;
+	text-align:center;
+}
+
+}
+nav a{
+	text-decoration: none;
+	display: inline-block;
+}
+nav b{
+	display:inline-block;
+}
+
+p{
+	max-width: 700px;
+}
+span{
+	padding-right: 50px;
+}
+@media only screen and (max-width: 320px){
+	nav{
+		font-size: .5em;
+	}
+	img{
+		width:100%;
+	}
+}
